@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.wwf.traffikingtrack.MyRegularFontView
+        android:id="@+id/tvDialogMessageEnable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="@string/msg_gps_enable"
+        android:textColor="@color/color_app_text"
+        android:textSize="@dimen/size_general_small"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <com.wwf.traffikingtrack.MyFontButton
+            android:id="@+id/btnDisable"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0.2dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_rect_shape_blue"
+            android:text="No"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="@dimen/size_general_small"/>
+
+        <com.wwf.traffikingtrack.MyFontButton
+            android:id="@+id/btnEnable"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0.2dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_rect_shape_blue"
+            android:text="Yes"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="@dimen/size_general_small"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

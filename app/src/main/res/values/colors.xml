@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="color_app_text">#5c5c5c</color>
+    <color name="text_dark_primary">#ff212121</color>
+    <color name="button_default_pressed">@color/accent_dark</color>
+    <color name="accent_dark">#318FD9</color>
+    <color name="button_default_disabled">#ffbdbdbd</color>
+    <color name="button_default_normal">@color/accent</color>
+    <color name="accent">#318FD9</color>
+    <color name="text_light_primary">#ffffffff</color>
+    <color name="text_dark_secondary">#ff616161</color>
+    <color name="text_dark_tertiary">#ff9e9e9e</color>
+</resources>

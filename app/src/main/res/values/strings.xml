@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Traffickingtrack</string>
+    <string name="msg_gps_enable">Your GPS seems to be disabled. You must enable it.</string>
+    <string name="label_login">Sign In</string>
+    <string name="sans_serif">sans-serif</string>
+    <string name="sans_serif_light">sans-serif-light</string>
+    <string name="mobile">Enter your Mobile Number</string>
+    <string name="msg_enter_password">Enter password</string>
+    <string name="msg_internet_enable">Your Internet seems to be disabled, You must enable it.</string>
+    <string name="text_no">No</string>
+    <string name="text_yes">Yes</string>
+    <string name="dialog_close_button">Close</string>
+    <string name="verify_account">Please verify your account to login.</string>
+    <string name="no_internet">Please connect to internet!</string>
+</resources>

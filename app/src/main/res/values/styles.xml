@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Heading1" parent="@style/TextStyle">
+        <item name="android:textSize">36.0sp</item>
+    </style>
+    <style name="TextStyle" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/text_dark_primary</item>
+        <item name="android:fontFamily">@string/sans_serif</item>
+    </style>
+    <style name="TextView.Clickable" parent="@android:style/Widget.TextView">
+        <item name="android:background">?selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="BottomButton" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:textAppearance">@style/ButtonTextAppearance</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_default</item>
+        <item name="android:paddingLeft">@dimen/dimen_Padding_Left_Button</item>
+        <item name="android:paddingRight">@dimen/dimen_Padding_Right_Button</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_marginLeft">@dimen/margin_20</item>
+        <item name="android:layout_marginTop">@dimen/margin_10</item>
+        <item name="android:layout_marginRight">@dimen/margin_20</item>
+        <item name="android:layout_marginBottom">@dimen/margin_10</item>
+        <item name="android:minWidth">@dimen/dimen_minWidth_Button</item>
+        <item name="android:minHeight">@dimen/dimen_minHeight_Button</item>
+
+
+    </style>
+    <style name="Body1" parent="@style/TextStyle">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="Body2" parent="@style/TextStyle">
+        <item name="android:textSize">12.0sp</item>
+    </style>
+    <style name="Body2.DarkTertiary" parent="@style/Body2">
+        <item name="android:textColor">@color/text_dark_tertiary</item>
+    </style>
+    <style name="ButtonTextAppearance" parent="@style/CTA1">
+        <item name="android:textColor">@color/text_light_primary</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="CTA1" parent="@style/TextStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
